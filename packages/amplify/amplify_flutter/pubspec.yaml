@@ -16,7 +16,12 @@ dependencies:
       url: https://github.com/presence-app/amplify-flutter.git
       ref: main
       path: packages/amplify_core
-  amplify_datastore_plugin_interface: 0.6.4-rc.1
+ # amplify_datastore_plugin_interface: 0.6.4-rc.1
+  amplify_datastore_plugin_interface:
+    git:
+      url: https://github.com/presence-app/amplify-flutter.git
+      ref: main
+      path: packages/amplify_datastore_plugin_interface
  # amplify_flutter_android: 0.6.4-rc.1
   amplify_flutter_android:
     git:
